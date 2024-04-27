@@ -1,0 +1,116 @@
+*{
+    font-family: "Montserrat", sans-serif !important;
+}
+body{
+    background-color: #f3f4f6;
+}
+.banner-bg{
+    background-image: url("../images/Bg.svg");
+    background-repeat: no-repeat;
+}
+:focus-visible {
+    outline: 0px !important;
+}
+.row{
+    margin: 0px !important;
+}
+.form-control:focus{
+    box-shadow: none !important;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-400{
+    font-weight: 400;
+}
+.f-32{
+    font-size: 32px;
+}
+.f-24{
+    font-size: 24px;
+}
+.f-20{
+    font-size: 20px;
+}
+.f-18{
+    font-size: 18px;
+}
+.f-16{
+    font-size: 16px;
+}
+.f-15{
+    font-size: 15px;
+}
+.f-14{
+    font-size: 14px;
+}
+.f-12{
+    font-size: 12px;
+}
+.bg-blue{
+    background: #3554D1 !important;
+}
+.border-blue{
+    border: 2px solid #3554D1 !important;
+}
+.text-blue{
+    color: #3554D1 !important;
+}
+.text-grays{
+    color:#7E8AA0 !important;
+}
+.row-new{
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+}
+body h1, body h2, body h3, body h4, body h5, body h6, body hr, body p {
+    margin-bottom: 1rem;
+}
+body img{
+    display: initial;
+}
+input[type=checkbox] {
+    border: 1px solid #495560;
+    border-radius: 2px;
+    width: 17px;
+    height: 17px;
+}
+[type=checkbox]:checked:hover, [type=checkbox]:checked:focus, [type=radio]:checked:hover, [type=radio]:checked:focus , [type=checkbox]:focus, [type=radio]:focus{
+    outline-offset: 0px !important;
+    outline: 0px !important; 
+    box-shadow: none !important;
+}
+@media(min-width:576px){
+    .container.common-container {
+        max-width: 800px;
+    }
+}
+@media(min-width:992px){
+    .container.common-container {
+        max-width: 1200px;
+    }
+}
+@media(min-width:1200px){
+    .container.common-container {
+        max-width: 1590px;
+        padding: 0px;
+    }
+}
+@media(max-width:767px){
+    .f-32{
+        font-size: 28px;
+    }
+    .f-24{
+        font-size: 18px;
+    }
+    .f-20{
+        font-size: 16px;
+    }
+    .img-auto{
+        width: auto !important;
+        margin: auto;
+    }
+}

@@ -1,0 +1,38 @@
+.profile-page .tab-content>.tab-pane {
+    display: block;
+    opacity: 1;
+}
+.profile-page a.nav-link {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #242424;
+    padding-left: 0px;
+    white-space: nowrap;
+    margin: 1rem 0rem;
+}
+.profile-page a.nav-link.active {
+    background-color: #fff;
+    color: #3554D1;
+}
+p.title-account {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    margin: 0px;
+    color: #242424;
+}
+.profile-outer {
+    border: 1px solid #E6E6E6;
+    border-radius: 8px;
+}
+.profile-page .table thead th {
+    background: #F2F2F2;
+}
+.profile-page .table thead th, .profile-page .table td {
+    padding: 12px 32px;
+    white-space: nowrap;
+}

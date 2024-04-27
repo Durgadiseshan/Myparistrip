@@ -1,0 +1,84 @@
+p.tour-title {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 3px;
+}
+p.result-title {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    color: #7E8AA0;
+    margin-bottom: 0px;
+}
+.sort-select {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+}
+.sort-select select.form-control {
+    border-radius: 10px;
+    width: 300px;
+    background:#F4F4F5 url("../images/caret-down.svg") no-repeat center right 5%;
+    border: 0px
+}
+.sort-select label {
+    margin-bottom: 0px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    white-space: nowrap;
+}
+.white-shadow {
+    box-shadow: 0px 4px 10px 0px #0000001A;
+    background: #FFFFFF;
+    border-radius: 10px;    
+}
+.calender-seaction input.form-control {
+    border-radius: 10px;
+    background:#F4F4F5 url("../images/calendar-blue.svg") no-repeat center right 4%;
+    border: 0px;
+    height: 44px;
+}
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+   opacity: 0;
+}
+label.label-for-check {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    margin-bottom: 0rem;
+}
+.check-with-label:checked + .label-for-check {
+    color: #3554D1;
+}
+.checkbox-seaction input[type=checkbox] {
+    margin-right: 10px;
+}
+.tour-img {
+    background-size: cover !important;
+    border-radius: 20px;
+}
+.tour-hrs .pair-count {
+    position: relative;
+}
+.tour-hrs .pair-count:after{
+    content: '';
+    background-image: url("../images/gray-line.svg");
+    position: absolute;
+    right: 0px;
+    height: 15px;
+    width: 15px;
+    background-repeat: no-repeat;
+}
+.speedmeter:after{
+    display: none;
+}
+@media(max-width:991px){
+    .tour-img {
+        height: 250px !important;
+    }
+}
